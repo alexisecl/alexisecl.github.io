@@ -93,12 +93,23 @@
 
                     Le mathématicien Jean-Paul Delahaye vulgarise cette définition en la comparant à <i>"un très grand cahier, que tout le monde peut lire librement et gratuitement, sur lequel tout le monde peut écrire, mais qui est impossible à effacer et indestructible"</i>.
 
-                    <br>Elle est constituée par un ensemble de blocs, qui contiennent les transactions passées et qui forment une chaîne, sécurisée et partagée à tous ses utilisateurs, à laquelle est rattachée une cryptomonnaie. Lorsqu'une transaction est effectuée de A et B, cette transaction est ajoutée à un bloc. Ce bloc est partagé à tous les noeuds du réseau. A cette étape, les "mineurs" vont certifié l'authenticité de la transaction, via des ordinateurs qui possèdent des puissances de calculs très importantes. Ces personnes sont rémunérées en cryptomonnaie. Lorsque la transaction est certifiée, le bloc est rajoutée à la chaîne et envoyé sur tout le réseau et B peut recevoir la transaction de A.
+                    <br>Elle est constituée par un ensemble de blocs, qui contiennent les transactions passées et qui forment une chaîne, sécurisée et partagée à tous ses utilisateurs, à laquelle est rattachée une cryptomonnaie. Lorsqu'une transaction est effectuée de A et B, cette transaction est ajoutée à un bloc. Ce bloc est partagé à tous les noeuds du réseau. A cette étape, les "mineurs" vont certifié l'authenticité de la transaction, via des ordinateurs qui possèdent des puissances de calculs très importantes. Ces personnes sont rémunérées en cryptomonnaie. Lorsque la transaction est certifiée, le bloc est rajoutée à la chaîne et envoyé sur tout le réseau et B peut recevoir la transaction de A. L'image ci-dessous un résumé de ce processus :
 
-                    <h3>Comment authentifier les transactions ? </h3>
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+
+                        <img src="assets/image_1.png">
+
+                    </div>
+        <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+
+                    <h4>Comment authentifier les transactions ? </h4>
 
 
-                    <p>Pour authentifier les transactions, une blockchain utilise des clés cryptographiques : une assocation clé publique et clé privée. La clé privée permet de chiffrer le message issu de l'envoyeur de la transaction. Lorsque cette dernière est transmise aux noeuds du réseau, et validée.
+                    <p>Pour authentifier les transactions, une blockchain utilise des clés cryptographiques : une assocation clé publique et clé privée. La clé privée permet de chiffrer le message issu de l'envoyeur de la transaction. Cette dernière est alors transmise aux noeuds du réseau. Mais il faut alors s'assurer de l'unicité du traitement. En effet, on ne veut pas que par exemple un transfert d'argent soit considéré deux fois. Pour cela, chaque noeud du réseau enregistre les transactions reçues dans des files d'attente, les blocs. Il va alors valider (ou non) ce bloc, et les autres noeuds du réseau reçoivent alors ce bloc synchronisé.
+
+                    <br>Les réseaux actuels sont facilement accessibles, et donc toute personne peut émettre des transactions ou encore devenir mineur, qui ne se soumettent en général à aucun contrôle. Comment se prévenir alors d'une possible fraude ?
+                    Un noeud peut être émis de façon frauduleuse à une blockchain. Mais dès lors que le mineur l'incorpore dans la chaine, celle-ci est transférée aux autres noeurs de réseau, qui vérifient l'authenticité. Il faudrait donc pouvoir contrôler un nombre colossal de noeuds dans le réseau, ce qui nécessiterait une puissance de calcul quasi impossible à atteindre.
+
              </p>
 
 
@@ -108,13 +119,19 @@
 
                 <br>
 
-                <h3>L’importance de dynamiser son système d’information</h3>
+                <h3>Les réponses que cela peut apporter au secteur bancaire</h3>
 
+                <br>
+                On assiste depuis plusieurs années à une dématérialisation des échanges financiers. La monnaie actuelle (billets, pièces) voit son utilisation diminuer, au profit des paiements par carte bancaire ou paiements mobiles. Ainsi, la Suède pense à  supprimer la circulation d'argent liquide d'ici à 2030.
+
+                Les groupes bancaires permettent de centraliser et régir la gestion de ces échanges et cela entraîne des délais et des coûts importants.
+
+                <br>
                 <p>
-
-                    L’idée est de repenser les différents canaux de la relation client et l’ensemble du système d’information associé pour permettre la remontée, le stockage, l’indexation et l’aggrégation de données de manière pérenne et fiable.
-                    <br> Auparavant les données étaient isolées, aujourd’hui la business intelligence souhaite disposer de n’importe quelles données, sur n’importe quels clients où qu’ils se trouvent en temps réel. Les solutions Big Data apportent puissance et versatilité pour trouver de la valeur dans les données jusqu’alors non exploitées et trop coûteuses.
-                    <br> Dès lors, une fois l’écosystème Big Data implémenté, il existe entres autres trois leviers numériques pour améliorer l’efficacité de la stratégie des banques vis à vis de leurs clients, potentiels ou actuels.
+                Le fait de pouvoir permettre aux acteurs d'un réseau de valider les transactions apparait comme une solution de réduction du temps et du coût de traitement. Cela peut particulèrement bien s'adapter aux marchés fragmentés qui souffrent de délais de traitements importants, comme la vie post-marché d'un titre (qui correspond à l'inscription dans les registres, la certification), ou les paiements internationaux.
+                <br>
+              </p>Enfin, l'historisation, le fait de ne pas pouvoir effacer les transactions, et l'incapacité à faire valider des transactions fausses en font un parfait outil à l'échange de biens (titres, actifs, fonds, etc.).
+              Il apparait alors nécessaire pour les banques de saisir cette opportunité, et de ne pas de laisser dépasser par la possible désintermédiation que la blockchain peut apporter.
                 </p>
 
 
